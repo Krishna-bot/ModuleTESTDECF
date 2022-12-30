@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.topright{
+margin-top: 250px;
+
+}
+.topleft{    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 150px;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+}
+.service{
+    overflow-y: auto;
+    max-height: 190px;
+
+}
+.headi{
+    animation: headings 4s infinite;
+}
+@keyframes headings {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
